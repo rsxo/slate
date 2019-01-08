@@ -74,7 +74,8 @@ html, body {
   // This is the logo at the top of the ToC
   .logo {
     display: block;
-    max-width: 100%;
+    max-width: 90%;
+    margin-top: $logo-margin;
     margin-bottom: $logo-margin;
   }
 
@@ -412,6 +413,8 @@ html, body {
       padding: 5px 10px;
       border-bottom: 1px solid #ccc;
       vertical-align: bottom;
+      background: #2467af;
+      color: #FFF;
     }
 
     td {
